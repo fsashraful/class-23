@@ -1,0 +1,217 @@
+nav{
+   background: #141719;
+}
+
+.menu {
+	display: flex;
+	padding: 10px;
+}
+
+.menu-bar{
+    display: flex;
+    justify-content: end; 
+    margin: 0;
+  
+}
+
+.logo{
+    width: 20%;
+}
+
+.logo img{
+    width: 85px;
+}
+
+.main-menu{
+    width: 80%;
+}
+
+.menu-bar li a {
+	text-decoration: none;
+	margin: 0 15px;
+	color: white;
+	line-height: 45px;
+    border-bottom: 2px solid #f8f8f8;
+    padding-bottom: 10px;
+
+}
+
+/* ==== Main contnet start ====  */
+main{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.main-left{
+	height: 420px;
+	flex-basis: 70%;
+    
+}
+
+aside {
+	border-left: 2px rgb(255, 0, 0) solid;
+	background: #d2d2d2;
+    height: 780px;
+	flex-basis: 27%;
+	padding: 15px;
+   
+}
+
+.content1{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.content-item{
+    border: 1px solid green;
+    height: 200px;
+    flex-basis: 31%;  
+    display: flex; 
+}
+
+.center1 p{
+    background: red;
+    padding: 15px;
+    display: inline-block;
+    color: white;
+    
+}
+
+.center2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-self: center;
+    
+}
+
+.center2 p{
+    background: red;
+    padding: 15px;
+    display: inline-block;
+    color: white;
+}
+
+.center3{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    align-self: end;
+    
+}
+.center3 p{
+    background: red;
+    padding: 15px;
+    display: inline-block;
+    color: white;
+    margin-bottom: 0;
+    
+}
+
+/* ==== Content Item -2 Start Now ==== */
+.content2{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.content-item-2 p{
+    margin-bottom: 0;
+}
+
+.content-item-2 {
+	border: 1px solid green;
+	display: flex;
+	flex-basis: 23%;
+	padding: 10px;
+}
+
+.content-item-2-center {
+	flex-basis: 45%;
+}
+
+.content3{
+    display: flex;
+    
+    color: white;
+   
+}
+/* =============================== */
+.fsashraful-1{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 50px 20px;
+    color: white;
+
+}
+
+.fsashraful-1 div{
+    background: red;
+    border: 1px solid green;
+    padding: 4px;
+}
+
+
+.fsashraful-2 {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.fsashraful-2 div{
+    background: red;
+    border: 1px solid green;
+    color: white;
+}
+
+.fsashraful-3{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 56px 0px;
+}
+
+.fsashraful-3 div{
+    background: red;
+    border: 1px solid green;
+    padding: 4px 10px;
+    color: white;
+}
+
+.fsashraful-3-1{
+    align-self: center;
+}
+
+.fsashraful-3-2{
+    align-self: flex-end;
+}
+
+
+/* footer Are start  */
+footer{
+    background: #141719;
+    padding: 1px 0;
+}
+/* footer Are End */
+
+.footer-bar{
+    display: flex;
+    justify-content: center;
+}
+.footer-bar li a {
+	text-decoration: none;
+	margin: 0 15px;
+	color: white;
+	line-height: 45px;
+    border-bottom: 2px solid #f8f8f8;
+    padding-bottom: 10px;
+
+}
+
+
